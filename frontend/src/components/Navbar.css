@@ -1,0 +1,43 @@
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 200px;
+
+}
+.createlogo{
+    width: 214px;
+    height: 122px;
+}
+.createpostimg{
+    width: 150px;
+}
+.logoimg{
+    width: 100%;
+    margin-top: 25px;
+    margin-left: 25px;
+   
+    object-fit: contain;
+}
+ul {
+    display: flex;
+    
+}
+
+
+li{
+    list-style: none;
+    padding: 1px 20px;
+    font-weight: bold
+
+}
+a{
+    text-decoration: none;
+    color: blue;
+    margin-right: 45px;
+    font-size: x-large;
+    /* font-size: 10px; */
+} 
