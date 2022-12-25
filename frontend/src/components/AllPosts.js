@@ -14,7 +14,7 @@ const AllPosts = () => {
         }
 
         //fetching all posts
-        fetch("https://instaclone-backend-5nw3.onrender.com/allposts")
+        fetch("http://localhost:4000/allposts")
             .then(res => res.json())
             .then(allposts => {
                 // console.log(allposts)

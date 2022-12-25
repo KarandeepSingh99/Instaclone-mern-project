@@ -11,7 +11,9 @@ const cors = require("cors");
 require("./models/model")
 require("./models/post")
 
-app.use(cors())
+app.use(cors({
+    origin:["http://localhost:4000","https://instaclone-frontend-kaag.onrender.com"]
+}))
 
 app.use(express.json());
 
